@@ -60,6 +60,10 @@ html{
    
 
 }
+
+.firstB{
+    font-size: 65px;
+}
 /* @media screen and (max-width:  992px){
     .categories-card2{
         border: 2px solid blue;
@@ -70,10 +74,9 @@ html{
 
 } */
     
+.categories-card:hover{
+    background: green;
 
-.user a img{
-border-radius: 50%;
-display: flex;
 }
 
 .newlist_content{
