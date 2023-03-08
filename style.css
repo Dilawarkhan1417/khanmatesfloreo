@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+html{
+}
+
+#hero{
+    height: 100vh;
+    background: url(./assets/images/home-hero-cover-image_optimized.png);
+    background-size: cover;
+}
+
+.navbar-nav .nav-item{
+    margin-left: 1rem;
+
+}
+
+.nav-item .nav-link{
+    color: white !important;
+
+}
+
+.top_Navbar .row{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.703);
+}
+
+
+
+.cards i{
+    font-size: 55px;
+}
+
+#aboutServices{
+    background: rgba(27, 67, 27, 0.854);
+}
+
+
+
+#youtube{
+    background: url(./assets/images/youtube.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.sheraaz{
+    font-size: 3rem;
+    display: none;
+}
+
+@media (max-width: 768px){
+    .top_Navbar,.btn_view{
+        display: none !important;
+    }
+   
+
+}
+/* @media screen and (max-width:  992px){
+    .categories-card2{
+        border: 2px solid blue;
+        height: 700px;
+        margin-bottom: 10px;
+        
+    }
+
+} */
+    
+
+.user a img{
+border-radius: 50%;
+display: flex;
+}
+
+#newlist .container{
+    background: url(./assets/images/subscribe-form-cover_optimized.png);
+}
