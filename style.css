@@ -76,6 +76,6 @@ border-radius: 50%;
 display: flex;
 }
 
-#newlist .container{
+.newlist_content{
     background: url(./assets/images/subscribe-form-cover_optimized.png);
 }
