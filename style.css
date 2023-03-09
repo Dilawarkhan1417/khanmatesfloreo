@@ -13,6 +13,7 @@ html{
     background-size: cover;
 }
 
+
 .navbar-nav .nav-item{
     margin-left: 1rem;
 
@@ -32,13 +33,45 @@ html{
 .cards i{
     font-size: 55px;
 }
+.cards:hover{
+    opacity: 0.7;
+}
 
 #aboutServices{
     background: rgba(27, 67, 27, 0.854);
 }
 
 
+.product-img{   
+    width: 280px;
+    height: 300px;
+    background: url(./assets/images/product-image-3_optimized-300x400.png);
+    background-size: cover;
+    background-position: center;
+}
+.product-img1{   
+    width: 280px;
+    height: 300px;
+    background: url(./assets/images/product-image-4_optimized-300x400.png);
+    background-size: cover;
+    background-position: center;
+}
+.product-img2{   
+    width: 280px;
+    height: 300px;
+    background: url(./assets/images/product-image-3_optimized-300x400.png);
+    background-size: cover;
+    background-position: center;
+}
+.product-img3{   
+    width: 280px;
+    height: 300px;
+    background: url(./assets/images/product-image-5_optimized-300x400.png);
+    background-size: cover;
+    background-position: center;
+}
 
+/* 
 #youtube{
     background: url(./assets/images/youtube.jpg);
     height: 70vh;
@@ -46,7 +79,7 @@ html{
     background-size: cover;
 
 
-}
+} */
 
 .sheraaz{
     font-size: 3rem;
@@ -57,6 +90,18 @@ html{
     .top_Navbar,.btn_view{
         display: none !important;
     }
+    .newlist_content{
+
+        margin: 0;
+        padding: 0;
+        width: 260px;
+    }
+    .newlist-title h1,.newlist-title h3{
+        font-size: 18px;
+    }
+    .input-group span{
+        
+    }
    
 
 }
@@ -64,6 +109,9 @@ html{
 .firstB{
     font-size: 65px;
 }
+
+
+
 /* @media screen and (max-width:  992px){
     .categories-card2{
         border: 2px solid blue;
@@ -82,3 +130,66 @@ html{
 .newlist_content{
     background: url(./assets/images/subscribe-form-cover_optimized.png);
 }
+
+
+
+
+
+/* ---------------Services-Page-Styling-Start------------ */
+
+#hero_services{
+    height: 80vh;
+    background: url(./assets/images/hero-image_optimized.png);
+    background-size: cover;
+}
+
+.about_right .row .cards_services{
+    width: 47% !important;
+    height: 300px !important;
+   
+}
+.accordion-button:not(.collapsed) {
+    color: green !important;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: white;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(63, 145, 5, 0.66) !important;
+}
+.cards_services i{
+    color: green;
+    font-size: 40px;
+}
+.cards_services i:hover{
+    color: white !important;
+
+
+}
+.cards_services:hover{
+    color: white !important;
+    background-color: green !important;
+}
+
+
+
+.testi-cards{
+    background: rgba(98, 154, 98, 0.837);
+    height: 420px !important;
+    width: 370px !important;
+
+}
+.testi-cards:hover{
+    opacity: 0.4;
+    color: black !important;
+}
+
+
+.testi-cards img{
+    height: 50px !important;
+    width: 50px !important;
+
+}
+/* ---------------Services-Page-Styling-End------------ */
