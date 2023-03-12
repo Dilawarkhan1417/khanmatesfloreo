@@ -192,4 +192,19 @@ html{
     width: 50px !important;
 
 }
+
 /* ---------------Services-Page-Styling-End------------ */
+
+
+
+
+
+/* ---------------about-Page-Styling-End------------ */
+
+.part-contact{
+    cursor: pointer;
+}
+.part-contact:hover{
+    background-color: green !important;
+    color: white !important;
+}
